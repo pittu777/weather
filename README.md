@@ -2,7 +2,7 @@
 
 <h1 align="center">WEATHER</h1>
 
-<img src="https://media.tenor.com/LFO86xmMuWYAAAAC/rain-umbrella.gif" alt="coding" width="100" height="100" align="center">
+<img src="https://media.tenor.com/LFO86xmMuWYAAAAC/rain-umbrella.gif" alt="coding" width="400" height="400">
 
 <h2 align="center">GO TO LIVE (click below)</h2>
 
