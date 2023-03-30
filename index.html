@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="1163661.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -12,6 +13,10 @@
     <title>weather</title>
 </head>
 <body>
+  <!-- preloader -->
+  <div class="preloader">
+    <img src="Infinity-1s-221px-1--unscreen (1).gif" alt="preloader" class="preloader__item" />
+  </div>
     <div class="card">
         <div class="search">
           <input type="text" class="search-bar" placeholder="Search">
@@ -22,7 +27,7 @@
               </path>
             </svg></button>
         </div>
-        <div class="weather ">
+        <div class="weather loading">
           <h2 class="city">Weather in Chandigarh</h2>
           <h1 class="temp">51°C</h1>
           <div class="flex">

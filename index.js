@@ -13,8 +13,8 @@ let weather = {
         )
         .then((response) => {
             if (!response.ok) {
-              alert("No weather found.");
-              throw new Error("No weather found.");
+              alert("No weather ⚠️⚠️ found.");
+              throw new Error("No weather ⚠️⚠️ found.");
             }
             return response.json();
           })
@@ -88,4 +88,11 @@ let weather = {
       });
     
     weather.fetchweather("chandigarh");
+// preloader
+const preloader = document.querySelector(".preloader");
+
+window.addEventListener("load", function () {
+  preloader.classList.add("hide-preloader");
+});
+
 

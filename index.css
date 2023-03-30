@@ -1,3 +1,7 @@
+:root {
+  --clr-black: white;
+  
+}
 body {
     display: flex;
     justify-content: center;
@@ -73,7 +77,7 @@ h5{
     margin-left: 8px;
   }
   
-  .weather.loading {
+  /* .weather.loading {
     visibility: hidden;
     max-height: 20px;
     position: relative;
@@ -86,4 +90,23 @@ h5{
     position: absolute;
     top: 0;
     left: 20px;
-  }
+  } */
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--clr-black);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  z-index: 999;
+  transition: var(--transition);
+}
+.hide-preloader {
+  z-index: -999;
+  visibility: hidden;
+}
